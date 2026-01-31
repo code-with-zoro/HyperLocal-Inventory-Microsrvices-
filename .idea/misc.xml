@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../../../Spring Intializer/User-Auth-Service/pom.xml" />
+        <option value="$PROJECT_DIR$/User-Auth-Service/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../Spring Intializer/Inventory-Service/pom.xml" />
+        <option value="$PROJECT_DIR$/Inventory-Service/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../Spring Intializer/Location-Service/pom.xml" />
+        <option value="$PROJECT_DIR$/Location-Service/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../Spring Intializer/Loaction-Service/pom.xml" />
+        <option value="$PROJECT_DIR$/Loaction-Service/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../Spring Intializer/Service-Registry/pom.xml" />
+        <option value="$PROJECT_DIR$/Service-Registry/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../Spring Intializer/API-Gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/API-Gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../Spring Intializer/Search_Service/pom.xml" />
+        <option value="$PROJECT_DIR$/Search_Service/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/../../../Spring Intializer/Loaction-Service/pom.xml" />
+        <option value="$PROJECT_DIR$/Location-Service/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="temurin-21 (2)" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

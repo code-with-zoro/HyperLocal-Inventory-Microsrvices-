@@ -1,0 +1,15 @@
+server:
+  port: ${SERVER_PORT}
+
+spring:
+  application:
+    name: SEARCH-SERVICE
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: ${EUREKA_URL}

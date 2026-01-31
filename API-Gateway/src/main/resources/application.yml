@@ -1,0 +1,49 @@
+server:
+  port: ${SERVER_PORT}
+
+spring:
+  application:
+    name: API-GATEWAY
+  cloud:
+    gateway:
+      routes:
+        - id: USER-AUTH-SERVICE
+          uri: lb://USER-AUTH-SERVICE
+          predicates:
+            - Path=/auth/**,/admin/**,/public/**,/vendor/**
+          filters:
+            - JWTAuthenticator
+
+        - id: INVENTORY-SERVICE
+          uri: lb://INVENTORY-SERVICE
+          predicates:
+            - Path=/product/**,/search/**
+          filters:
+            - JWTAuthenticator
+
+        - id: LOCATION-SERVICE
+          uri: lb://LOCATION-SERVICE
+          predicates:
+            - Path=/location/**
+          filters:
+            - JWTAuthenticator
+
+        - id: SEARCH-SERVICE
+          uri: lb://SEARCH-SERVICE
+          predicates:
+            - Path=/searchProduct/**
+          filters:
+            - JWTAuthenticator
+
+
+
+eureka:
+  instance:
+    hostname: ${EUREKA_HOST}
+    prefer-ip-address: ${EUREKA-PREFER-IP}
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: ${EUREKA_URL}
+

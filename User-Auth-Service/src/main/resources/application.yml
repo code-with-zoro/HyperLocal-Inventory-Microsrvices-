@@ -1,0 +1,19 @@
+server:
+  port: ${SERVER_PORT}
+
+spring:
+  application:
+    name: User-Auth-Service
+  data:
+    mongodb:
+      uri: ${MONGO_URI}
+      database: ${MONGO_DB}
+      auto-index-creation: true
+
+eureka:
+  instance: true
+  client:
+    fetch-registry: true
+    registr-with-eureka: true
+    service-url:
+      defaultZone: ${EUREKA_URL}

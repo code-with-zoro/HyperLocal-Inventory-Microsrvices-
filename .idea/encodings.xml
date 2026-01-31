@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/../../../Spring Intializer/API-Gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../../Spring Intializer/Loaction-Service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../../Spring Intializer/Search_Service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../../Spring Intializer/Service-Registry/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/API-Gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Inventory-Service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Loaction-Service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Location-Service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Search_Service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Service-Registry/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/User-Auth-Service/src/main/java" charset="UTF-8" />
+  </component>
+</project>
